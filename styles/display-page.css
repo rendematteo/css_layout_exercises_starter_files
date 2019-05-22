@@ -1,14 +1,51 @@
 body{
 	width: 800px;
-	height: 800px;
-	border: 1px solid black;
-	display: center;
-	color-background:green;
+	height: 500px;
+
+
+	font-size: 0px;	
+	margin-right: auto;
+	margin-left: auto;
+	margin bottom: auto;
+	padding: 150px;
+	
+}
+
+.grupo1{
+	display: inline-block;
+}
+.grupo2{
+	display: inline-block;
 }
 
 div[id="1"]{
 	background-color: green;
 	height: 200px;
 	width: 50%;
+	border: 1px solid black;
+}
+div[id="2"]{
+	background-color: blue;
+	height: 200px;
+	width: 50%;
+	border: 1px solid black;
+}
+div[id="3"]{
+	background-color: grey;
+	height: 300px;
+	width: 33.3%;
+	border: 1px solid black;
+}
+div[id="4"]{
+	background-color: black;
+	height: 300px;
+	width: 33.3%;
+	border: 1px solid black;
+
+}
+div[id="5"]{
+	background-color: yellow;
+	height: 300px;
+	width: 33.4%;
 	border: 1px solid black;
 }
